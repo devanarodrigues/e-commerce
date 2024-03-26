@@ -1,0 +1,149 @@
+
+h2{
+    font-size: 3em !important;
+}
+/* ------------------------------ nav ------------------------------ */
+#navbarSupportedContent>ul>li>a:hover,
+#navbarSupportedContent>ul>li>a:focus {
+    color: rgb(0, 107, 105);
+    ;
+}
+
+/* ------------------------------ header ------------------------------ */
+
+body>div:nth-child(2) {
+    background-image: url("../img/hero4.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+body>div:nth-child(2)>div>div>div>h1 {
+    font-size: 4em;
+}
+
+body>div:nth-child(2)>div>div>div>h1 .segundo {
+    color: rgb(0, 107, 105);
+}
+.segundo{
+    color: rgb(0, 107, 105) !important;
+}
+
+.primary {
+    background-color: rgb(0, 107, 105) !important;
+}
+
+.primary:hover {
+    background-color: rgb(0, 60, 59) !important;
+}
+
+.primary-outline {
+    border: 1px solid rgb(0, 107, 105) !important;
+    color: rgb(0, 107, 105)!important;
+}
+
+.primary-outline:hover {
+    border: 1px solid rgb(0, 60, 59) !important;
+    color: white !important;
+    background-color: rgb(0, 60, 59) !important;
+}
+
+.secondary {
+    background-color: rgb(0, 60, 59) !important;
+}
+
+.secondary:hover {
+    background-color: rgb(0, 107, 105) !important;
+}
+/* ------------------------------ cards ------------------------------ */
+
+body > div:nth-child(3) > div > div > div:nth-child(1) > div > div > h5{
+    background-color: pink;
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+body > div:nth-child(3) > div > div > div:nth-child(2) > div > div > h5{
+    background-color: rgb(192, 255, 208);
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+body > div:nth-child(3) > div > div > div:nth-child(3) > div > div > h5{
+    background-color: rgb(192, 222, 255);
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+body > div:nth-child(3) > div > div > div:nth-child(4) > div > div > h5{
+    background-color: rgb(224, 192, 255);
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+body > div:nth-child(3) > div > div > div:nth-child(5) > div > div > h5{
+    background-color: rgb(255, 192, 229);
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+body > div:nth-child(3) > div > div > div:nth-child(6) > div > div > h5{
+    background-color: rgb(255, 228, 192);
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+/* ------------------------------ repair ------------------------------ */
+
+body > div:nth-child(5) > div > div{
+    background-image: url("../img/b2.jpg");
+    height: 40vh;
+}
+/* ------------------------------ dois cards grandes ------------------------------ */
+body > div:nth-child(7) > div > div > div:nth-child(1){
+    background-image: url("../img/b17.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+body > div:nth-child(7) > div > div > div:nth-child(2){
+    background-image: url("../img/b10.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+/* ------------------------------ tres cards grandes ------------------------------ */
+body > div:nth-child(8) > div > div > div:nth-child(1){
+    background-image: url("../img/b7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+body > div:nth-child(8) > div > div > div:nth-child(2){
+    background-image: url("../img/b4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+body > div:nth-child(8) > div > div > div:nth-child(3){
+    background-image: url("../img/b18.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+/* ------------------------------ sign up ------------------------------ */
+
+body > div:nth-child(9){
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width:548px) {
+    body > div:nth-child(9){
+        height: 40vh !important;
+    }
+    body > div:nth-child(5) > div > div{
+        height: 50vh !important;
+    }
+}
+
